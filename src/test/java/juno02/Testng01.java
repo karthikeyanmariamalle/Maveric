@@ -19,5 +19,6 @@ public class Testng01 {
 		
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/login");
+	   driver.close();
 }
 }

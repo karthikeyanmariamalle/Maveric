@@ -11,9 +11,9 @@ public class retry implements IRetryAnalyzer
 		
 		int mincount = 0;
 		
-		int maxcount =1;
+		int maxcount =4;
 		
-		if (mincount<maxcount) {
+		if (maxcount<mincount) {
 			
 			mincount++;
 			return true;

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="juno03.excel">
+      <class name="juno03.grouping">
         <methods>
-          <include name="excelTest1"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- juno03.excel -->
+      </class> <!-- juno03.grouping -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
